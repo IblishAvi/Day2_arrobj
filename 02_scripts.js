@@ -135,12 +135,33 @@ console.log("copy of combined array is created..",cpy);
 
 
 
-//13. Reducing an array.
+//13. Reduce() method in  an array.
+    
     let sum =  arrNum.reduce((accumulator,currentValue)=>
         accumulator+currentValue,0
 );
     console.log(sum)
-   
+
+   const arrNum1 =[23,11,20,24,29,10];
+    let val =  arrNum1.reduce(function(accumulator,currentValue){
+
+        if(accumulator>currentValue)
+            currentValue=accumulator
+     return currentValue;   
+    }
+    
+
+);
+    console.log("Greatest value is:",val);
+       let small =  arrNum1.reduce(function(accu,curr){
+
+        if(accu<curr){
+            curr=accu
+
+        }
+            return curr;   
+       })
+       console.log('smallest value in array is :',small) 
     
 //14. chaining in array.
 // let items = arrNum.filter(value => value >=0 ).map(num =>{value:num});
