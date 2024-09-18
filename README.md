@@ -71,3 +71,7 @@ it is type of object which is already  defined in Javascript Environment for ex:
 string 
 Date
 
+
+## Index.html
+
+it contains a code to change background color of page frequently.
