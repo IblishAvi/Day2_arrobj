@@ -33,33 +33,3 @@ document.querySelector('#container')
         
         document.querySelector('#startbtn').addEventListener("click",startInterval()) ;
         document.querySelector('#stopbtn').addEventListener("click",stopInterval());
-
-// const randomColor = function(){
-//     const hex = "0123456789ABCDEF";
-//     let color = '#'
-//     for(let i= 0;i<6;i++)
-//     {
-//         color+=Math.floor(Math.random()*16);
-//     }
-//     return color;
-// }
-// let interval,interval2;
-// document.querySelector('#container')
-// const StartChangeColor =function(){
-//     interval =setInterval(changeColor,1000);
-//     function changeColor(){
-//         document.body.style.backgroundColor = randomColor();
-//     }
-//     interval2 =setInterval(changeColor2,5000);
-//     function changeColor2(){
-//         container.style.backgroundColor = randomColor();
-//     }
-// }
-
-// const StopChangeColor = function(){
-//     clearInterval(interval)
-//     clearInterval(interval2)
-
-// }
-// document.querySelector('#startbtn').addEventListener("click",StartChangeColor());
-// document.querySelector('#stopbtn').addEventListener("click",StopChangeColor());
