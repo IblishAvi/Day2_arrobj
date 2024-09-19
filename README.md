@@ -75,3 +75,5 @@ Date
 ## Index.html
 
 it contains a code to change background color of page frequently.
+here the setInterval function has been used to frequently change the background of the body and div
+setInterval function has used to change the icon frequently after given TimeInterval and ClearInterval has used to stop  the Action of setInterval functions .
